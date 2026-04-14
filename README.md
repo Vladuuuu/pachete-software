@@ -1,9 +1,11 @@
 # Proiect Pachete Software
 
-Aplicatie Streamlit pentru analiza datelor.
+Aplicatie realizata in Streamlit pentru analiza datelor.
 
-## Rulare
+## Setup
 
+```bash
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-streamlit run app.py
+```
